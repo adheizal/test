@@ -1,0 +1,19 @@
+dn: uid=ldapuser1,dc=ldap,dc=com
+uid: ldapuser1
+cn: ldapuser1
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: shadowAccount
+objectClass: radiusprofile
+description: 802.1x user
+radiusFilterId: "Enterasys:version=1:policy=Enterprise User"
+userPassword: {crypt}$1$rN6WLraT$9skdu7BpRUM6v7DiEhQXt1
+shadowLastChange: 15419
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+loginShell: /bin/bash
+uidNumber: 612
+gidNumber: 612
+homeDirectory: /home/ldapuser1
